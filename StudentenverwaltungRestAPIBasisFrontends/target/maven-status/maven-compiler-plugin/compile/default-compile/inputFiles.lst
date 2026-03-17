@@ -1,14 +1,14 @@
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/StudentenverwaltungApplication.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/controller/ExceptionController.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/controller/StudentRestController.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/controller/StudentThymeleafController.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/domain/Student.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/ExceptionDTO.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/FormValidierungExceptionDTO.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/StudentNichtGefunden.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/StudentValidierungFehlgeschlagen.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/repositories/DbZugriffStudenten.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/repositories/DbZugriffStudentenJPA.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/repositories/StudentJPARepo.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/services/StudentenService.java
-/home/gollo/schule/Git/Backend-Ausgangsdateien für die Frontends/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/services/StudentenServiceImpl.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/StudentenverwaltungApplication.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/controller/ExceptionController.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/controller/StudentRestController.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/controller/StudentThymeleafController.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/domain/Student.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/ExceptionDTO.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/FormValidierungExceptionDTO.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/StudentNichtGefunden.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/exceptions/StudentValidierungFehlgeschlagen.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/repositories/DbZugriffStudenten.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/repositories/DbZugriffStudentenJPA.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/repositories/StudentJPARepo.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/services/StudentenService.java
+/home/gollo/schule/Git/SpringBootStudentenverwaltungAufgabe4/StudentenverwaltungRestAPIBasisFrontends/src/main/java/at/itkollegimst/studentenverwaltung/services/StudentenServiceImpl.java
