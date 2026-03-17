@@ -1,0 +1,34 @@
+<!-- FALSCH – th ist doppelt deklariert, zweite überschreibt erste -->
+<html xmlns:th="http://www.thymeleaf.org" lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container-fluid">
+    <h1>Studenten einfügen</h1>
+
+    <hr class="border-2 border-top border-info">
+    <a th:href="@{/web/v1/studenten}" class="btn btn-info" role="button">Student:innenliste</a>
+    <hr class="border-2 border-top border-info">
+
+
+</div>
+    <form th:object="${student}" th:action="@{/web/v1/studenten/insert}" method="post">
+        <div class="mb-3">
+            <label for="name" class="form-label">NAME</label>
+            <input type="text" class="form-control" id="name" name="name" th:field="*{name}">
+            <div class="form-text" th:if="${#fields.hasErrors('name')}" th:errorclass="error" th:errors="*{name}"></div>
+        </div>
+
+            <div class="mb-3">
+                <label for="plz" class="form-label">PLZ</label>
+                <input type="text" class="form-control" id="plz" name="plz" th:field="*{plz}">
+                <div class="form-text" th:if="${#fields.hasErrors('plz')}" th:errorclass="error" th:errors="*{plz}"></div>
+            </div>
+
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Speichern</button>
+    </form>
+</body>
+</html>

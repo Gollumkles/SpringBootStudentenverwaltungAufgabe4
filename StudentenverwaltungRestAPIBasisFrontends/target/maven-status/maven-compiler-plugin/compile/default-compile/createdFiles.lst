@@ -1,0 +1,14 @@
+at/itkollegimst/studentenverwaltung/StudentenverwaltungApplication.class
+at/itkollegimst/studentenverwaltung/repositories/DbZugriffStudenten.class
+at/itkollegimst/studentenverwaltung/domain/Student.class
+at/itkollegimst/studentenverwaltung/exceptions/StudentNichtGefunden.class
+at/itkollegimst/studentenverwaltung/repositories/DbZugriffStudentenJPA.class
+at/itkollegimst/studentenverwaltung/repositories/StudentJPARepo.class
+at/itkollegimst/studentenverwaltung/controller/ExceptionController.class
+at/itkollegimst/studentenverwaltung/controller/StudentRestController.class
+at/itkollegimst/studentenverwaltung/services/StudentenServiceImpl.class
+at/itkollegimst/studentenverwaltung/exceptions/FormValidierungExceptionDTO.class
+at/itkollegimst/studentenverwaltung/exceptions/StudentValidierungFehlgeschlagen.class
+at/itkollegimst/studentenverwaltung/controller/StudentThymeleafController.class
+at/itkollegimst/studentenverwaltung/services/StudentenService.class
+at/itkollegimst/studentenverwaltung/exceptions/ExceptionDTO.class

@@ -1,0 +1,41 @@
+<html xmlns:th="http://www.thymeleaf.org" lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Hi</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="container-fluid">
+    <h1>Studenten anzeigen</h1>
+    <hr class="border-2 border-top border-info">
+    <a th:href="@{/web/v1/studenten/insert}" class="btn btn-info" role="button">Student:innen einfügen</a>
+    <hr class="border-2 border-top border-info">
+
+    <hr class="border-2 border-top border-info">
+    <a th:href="@{/web/v1/studenten/update/1}" class="btn btn-info" role="button">Student:innen update</a>
+    <hr class="border-2 border-top border-info">
+</div>
+
+
+<table class="table" id="studentenTabelle">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>Name</th>
+        <th>PLZ</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="student:${allStudents}">
+        <td th:text="${student.id}"></td>
+        <td th:text="${student.name}"></td>
+        <td th:text="${student.plz}"></td>
+        <td> <a th:href="@{/web/v1/studenten/update/{id}(id=${student.id})}" class="btn btn-info" role="button"> bearbeiten</a>
+            <a th:href="@{/web/v1/studenten/delete/{id}(id=${student.id})}" class="btn btn-warning" role="button"> loeschen</a></td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>
